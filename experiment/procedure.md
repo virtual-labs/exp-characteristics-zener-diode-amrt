@@ -1,4 +1,8 @@
-### Procedure
+## Procedure
+
+### Apparatus:
+ 
+Diode, resistor, variable DC power supply, milliammeter, voltmeter, Rheostat and wire.
 
 <h2>Controls</h2>
 
@@ -42,7 +46,14 @@ Click one end node of the battery and drag to the next position, where we want t
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center; width: fit-content;"><img src="./images/figure3.jpg" alt="Figure 3" style="max-width: 600px; height: auto;"><p style="text-align: center; font-size: smaller; font-style: italic;"> </p></div>
 
 
-If the connections are correct, the **Insert Key** option is activated.
+- If the connections are correct, the **Insert Key** option is activated.
+
+
+- Slowly increase the reverse voltage in small increments.
+
+- Record the voltage across the Zener diode and the corresponding current.
+
+- Continue increasing the reverse voltage until the Zener breakdown voltage is reached. Beyond this point, observe that the voltage across the diode remains nearly constant while the current increases rapidly.
 
 
 **Note**: This is an ideal circuit. For a real circuit, there will be small variations in output voltage with varying input voltage or load resistance.
