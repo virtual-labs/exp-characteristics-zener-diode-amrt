@@ -13,3 +13,5 @@ A diode allows electric current to pass in the forward direction and blocks curr
 <p>
 If a voltage of the same polarity as the built-in potential is applied across the junction, the depletion zone acts as an insulator, preventing significant current flow. This is known as the reverse bias phenomenon.
 </p>
+
+A Zener diode is a special-purpose diode designed to operate in the reverse breakdown region without damage. The I–V characteristics of a Zener diode consist of two regions: the forward bias region, which behaves like a normal diode, and the reverse bias region, where the diode enters breakdown and conducts significant current at a nearly constant voltage known as the Zener breakdown voltage.
