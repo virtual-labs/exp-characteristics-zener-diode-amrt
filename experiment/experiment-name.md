@@ -1,1 +1,1 @@
-## Experiment name
+## Characteristics of Zener diode

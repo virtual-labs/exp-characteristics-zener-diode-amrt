@@ -2,35 +2,52 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of using a Zener diode in reverse bias in this experiment?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To block all current flow",
+        "b": "To observe the avalanche effect",
+        "c": "To study the breakdown behavior and determine Zener voltage",
+        "d": "To act as a regular diode"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Zener diodes allow current in reverse once breakdown voltage is reached.",
+        "b": "Incorrect. Avalanche effect is a different breakdown mechanism.",
+        "c": "Correct. This is the key purpose of the experiment.",
+        "d": "Incorrect. That applies to forward bias."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In the forward bias region, a Zener diode behaves like:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "An open circuit",
+        "b": "A variable resistor",
+        "c": "A normal p-n junction diode",
+        "d": "A short circuit with zero voltage"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. In forward bias, current flows easily.",
+        "b": "Incorrect. Resistance does not vary linearly.",
+        "c": "Correct. It acts like a regular diode.",
+        "d": "Incorrect. There's a forward voltage drop (~0.7V for silicon)."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens to the voltage across a Zener diode once the reverse breakdown voltage is reached?",
+      "answers": {
+        "a": "It increases rapidly",
+        "b": "It drops to zero",
+        "c": "It remains nearly constant",
+        "d": "It oscillates"
+      },
+      "explanations": {
+        "a": "Incorrect. The voltage stabilizes, not increases.",
+        "b": "Incorrect. It stabilizes around Zener voltage, not zero.",
+        "c": "Correct. The voltage stays nearly constant in breakdown.",
+        "d": "Incorrect. Zener diodes do not oscillate in reverse bias."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

@@ -2,37 +2,54 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which instrument is used to measure the current through the Zener diode in the experimental setup?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Voltmeter",
+        "b": "Ammeter",
+        "c": "Milliammeter",
+        "d": "Ohmmeter"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Voltmeter measures potential difference.",
+        "b": "Partially correct. But milliammeter is more suitable for low currents.",
+        "c": "Correct. It accurately measures small currents in this setup.",
+        "d": "Incorrect. Ohmmeter measures resistance."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In the reverse bias configuration, the cathode of the Zener diode is connected to:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The negative terminal of the DC supply",
+        "b": "Ground",
+        "c": "The positive terminal of the DC supply",
+        "d": "A capacitor"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. That would be forward bias.",
+        "b": "Incorrect. Grounding isn't a standard connection in this setup.",
+        "c": "Correct. This configuration ensures reverse bias.",
+        "d": "Incorrect. Capacitors are not relevant here."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the typical range of Zener breakdown voltages available commercially?",
+      "answers": {
+        "a": "0.1 V to 1 V",
+        "b": "2 V to 200 V",
+        "c": "220 V to 440 V",
+        "d": "500 V to 1000 V"
+      },
+      "explanations": {
+        "a": "Incorrect. Most Zener diodes start from 2V and above.",
+        "b": "Correct. This is the standard commercial range.",
+        "c": "Incorrect. This range is too high for standard Zeners.",
+        "d": "Incorrect. Zener diodes above 200V are rare."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
